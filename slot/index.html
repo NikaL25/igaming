@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Fruit Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <header class="top-bar">
+            <div class="stats">
+                <div class="stat-box">Bet: <span id="bet" class="value text-blue">1</span></div>
+                <div class="stat-box" id="el-win" style="display: none;">Win: <span class="value text-green">+<span id="win">0</span></span></div>
+                <div class="stat-box" id="el-money">Balance: <span class="value text-gold">$<span id="money">0</span></span></div>
+            </div>
+            <button id="btn-putmoney" class="btn btn-deposit">Put Money 💵</button>
+        </header>
+
+        <main class="main-content">
+            <section class="s-game">
+                <div class="c-game">
+                    <div id="game-area">
+                        <div class="c-column"><div class="column"></div></div>
+                        <div class="c-column"><div class="column"></div></div>
+                        <div class="c-column"><div class="column"></div></div>
+                        <div class="c-column"><div class="column"></div></div>
+                        <div class="c-column"><div class="column"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s-btns">
+                <div class="controls">
+                    <button id="btn-bet" class="btn btn-circle" disabled>Bet</button>
+                    <button id="btn-spin" class="btn btn-spin" disabled>SPIN</button>
+                </div>
+                
+                <div class="paytable-wrapper">
+                    <table class="paytable">
+                        <thead>
+                            <tr>
+                                <th>Line</th>
+                                <th>3x</th>
+                                <th>4x</th>
+                                <th>5x</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-blue">Middle</td>
+                                <td>100x</td>
+                                <td>1000x</td>
+                                <td>100000x</td>
+                            </tr>
+                            <tr>
+                                <td class="text-green">Top</td>
+                                <td>2x</td>
+                                <td>5x</td>
+                                <td>1000x</td>
+                            </tr>
+                            <tr>
+                                <td class="text-red">Bottom</td>
+                                <td>2x</td>
+                                <td>5x</td>
+                                <td>1000x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

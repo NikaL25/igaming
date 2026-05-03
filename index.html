@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Spin | Premium Casino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.png" alt="Golden Spin Logo" />
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#hero" class="nav__link nav__link--active">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#games" class="nav__link">Games</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__burger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div id="hero" class="hero">
+            <div class="hero__content" data-aos="fade-up">
+                <h2 class="hero__subtitle">Golden Welcome Package</h2>
+                <h1 class="hero__title">$3,000 + 150 FREE SPINS</h1>
+                <p class="hero__desc">Join the ultimate premium casino experience today.</p>
+                <button class="btn btn--primary" onclick="document.getElementById('games').scrollIntoView({behavior: 'smooth'})">Play Now</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about section">
+            <div class="container about__container">
+                <div class="about__img-wrapper" data-aos="fade-right">
+                    <img src="images/about.png" alt="Casino luxury experience" class="about__img">
+                </div>
+                <div class="about__text-wrapper" data-aos="fade-left">
+                    <h2 class="section-title">Why Choose Us?</h2>
+                    
+                    <div class="feature">
+                        <h3 class="feature__title">Premium Software</h3>
+                        <p class="feature__text">We partner with industry-leading providers like NetEnt, Microgaming, and Evolution Gaming to deliver flawless graphics and fair RTP rates.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <h3 class="feature__title">Bank-Grade Security</h3>
+                        <p class="feature__text">Your funds are protected by 256-bit SSL encryption. Enjoy lightning-fast withdrawals and seamless crypto deposits without worrying about safety.</p>
+                    </div>
+                    
+                    <a href="#features" class="btn btn--outline">Discover More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="games" class="games section section--dark">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">New Arrivals</h2>
+                    <p class="section-subtitle">Be the first to hit the jackpot on our latest slot machines.</p>
+                </div>
+                
+                <div class="games__grid">
+                    <article class="game-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="game-card__img-box">
+                            <img src="images/image.jpg" alt="Neon Rush Slot" class="game-card__img">
+                        </div>
+                        <div class="game-card__info">
+                            <h4 class="game-card__title">Neon Rush</h4>
+                            <button class="btn btn--primary btn--small js-play-btn">Play Game</button>
+                        </div>
+                    </article>
+                    
+                    <article class="game-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="game-card__img-box">
+                            <img src="images/game-1.jpg" alt="Pharaoh's Gold Slot" class="game-card__img">
+                        </div>
+                        <div class="game-card__info">
+                            <h4 class="game-card__title">Pharaoh's Gold</h4>
+                            <button class="btn btn--primary btn--small js-play-btn">Play Game</button>
+                        </div>
+                    </article>
+
+                    <article class="game-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="game-card__img-box">
+                            <img src="images/game-2.jpg" alt="Cyberpunk City Slot" class="game-card__img">
+                        </div>
+                        <div class="game-card__info">
+                            <h4 class="game-card__title">Cyberpunk City</h4>
+                            <button class="btn btn--primary btn--small js-play-btn">Play Game</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="games section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title text-dark">Player Favorites</h2>
+                    <p class="section-subtitle text-dark">The most played and highest paying slots this week.</p>
+                </div>
+                
+                <div class="games__grid">
+                    <article class="game-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="game-card__img-box">
+                            <img src="images/game-3.jpg" alt="Book of Treasures" class="game-card__img">
+                        </div>
+                        <div class="game-card__info">
+                            <h4 class="game-card__title text-dark">Book of Treasures</h4>
+                            <button class="btn btn--primary btn--small js-play-btn">Play Game</button>
+                        </div>
+                    </article>
+                    <article class="game-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="game-card__img-box">
+                            <img src="images/game-4.jpg" alt="Mega Moolah Classic" class="game-card__img">
+                        </div>
+                        <div class="game-card__info">
+                            <h4 class="game-card__title text-dark">Mega Moolah</h4>
+                            <button class="btn btn--primary btn--small js-play-btn">Play Game</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="platform section section--dark">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">The Golden Standard</h2>
+                </div>
+                <div class="platform__grid">
+                    <div class="platform__card" data-aos="zoom-in">
+                        <h3>⚡ Instant Payouts</h3>
+                        <p>No more waiting days for your winnings. Withdraw to crypto or e-wallets in under 5 minutes.</p>
+                    </div>
+                    <div class="platform__card" data-aos="zoom-in" data-aos-delay="100">
+                        <h3>🤝 24/7 Live Support</h3>
+                        <p>Our expert team is available around the clock to assist you via Live Chat and Email.</p>
+                    </div>
+                    <div class="platform__card" data-aos="zoom-in" data-aos-delay="200">
+                        <h3>🏆 VIP Rewards</h3>
+                        <p>Climb the ranks and unlock exclusive cashback, personal account managers, and private tournaments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta section">
+            <div class="container cta__container" data-aos="fade-up">
+                <h2>Ready to Hit the Jackpot?</h2>
+                <p>Register now and claim your $3,000 Welcome Bonus immediately!</p>
+                <button class="btn btn--primary btn--large">Create Free Account</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>&copy; 2026 Golden Spin Casino. All Rights Reserved. 18+ Only.</p>
+            <div class="footer__links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Responsible Gaming</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal js-modal" aria-hidden="true">
+        <div class="modal__overlay js-modal-close"></div>
+        <div class="modal__content">
+            <button class="modal__close-btn js-modal-close" aria-label="Close modal">✖</button>
+            <div class="modal__iframe-container js-iframe-container"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
