@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const openModal = (e) => {
         e.preventDefault();
         
-        iframeContainer.innerHTML = `<iframe src="/slot/index.html" allowfullscreen></iframe>`;
+        iframeContainer.innerHTML = `<iframe src="slot/index.html" allowfullscreen></iframe>`;        
+
         
         modal.classList.add('is-active');
         document.body.style.overflow = 'hidden'; 
