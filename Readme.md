@@ -1,48 +1,50 @@
-# Neon Fruit Casino
-A vibrant, retro-inspired web-based slot machine game featuring neon visuals and classic fruit symbols. This project demonstrates a clean implementation of game logic, CSS animations, and responsive design within a modal-based architecture.
+# 🎰 Neon Fruit Casino
 
-# 🚀 Getting Started
-## Follow these instructions to get the project up and running on your local machine for development and testing purposes.
+A vibrant, retro-inspired web-based slot machine game featuring neon visuals and classic fruit symbols.  
+This project demonstrates clean implementation of game logic, CSS animations, responsive design, and a modal-based architecture.
 
-### Prerequisites
- You only need a modern web browser (Chrome, Firefox, Edge, or Safari). No complex backend or database is required as the game runs entirely on the client side.
+---
 
-1. Local Installation
-Clone the repository (or download the ZIP file):
+## 🚀 Getting Started
 
-Bash 
-` 
+Follow these instructions to run the project locally for development or testing purposes.
+
+---
+
+## 📋 Prerequisites
+
+You only need a modern web browser:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+⚠️ No backend or database is required — the game runs entirely on the client side.
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/neon-fruit-casino.git
-` 
-Navigate to the project folder:
+```
 
-Bash
-cd neon-fruit-casino
-Launch the project:
+### 2. Navigate to the project folder
+```
+cd igaming
+```
+### 3. Run the project 
+### Use a local server like Live Server (VS Code extension)
 
-Simply double-click the index.html file in your file explorer.
+## 🕹️ Features
+ 🎨 Neon UI Design — glowing retro-style casino interface
+📱 Responsive Modal System — works inside iframe/modal without layout issues
+🎰 Slot Machine Mechanics — bet system, balance tracking, win logic
+💰 Dynamic Economy — real-time balance updates
+🔊 Audio Effects — spinning, win sounds, and deposit feedback
+✨ Smooth Animations — CSS-powered reel transitions
 
-Recommended: Use a local server extension (like Live Server for VS Code) to ensure all assets (sounds and scripts) load correctly without CORS issues.
-
-🕹️ Features
-Responsive Modal Design: The game is optimized to run inside an iframe within a modal window without being cut off.
-
-Neon Aesthetics: Custom CSS styling with glow effects and dark mode.
-
-Interactive Controls: Real-time balance updates, adjustable bet sizes, and smooth reel animations.
-
-Audio Feedback: Immersive sound effects for spinning, winning, and depositing money.
-
-🛠️ Project Structure
-`
-Plaintext
-├── index.html          # Main landing page with the "Play Game" button
-├── style.css           # Global styles and modal positioning
-├── main.js             # Modal logic and iframe injection
-└── slot/               # Game directory
-    ├── index.html      # Game entry point
-    ├── style.css       # Game-specific neon styles
-    ├── script.js       # Core slot machine logic
-    └── media/          # Audio assets (mp3)
-`
-🌍 
+### 🌍 Live Demo: https://nikal25.github.io/igaming/
